@@ -15,7 +15,8 @@ exec ~/.fehbg
 exec_always compton
 bindsym $mod+Mod1+space exec --no-startup-id i3lock -i ~/Pictures/w.png && xset dpms force off
 bindsym $mod+Mod1+slash exec --no-startup-id i3lock -i ~/Pictures/w.png | systemctl suspend --now
-exec xinput set-prop 14 339 1 
+exec xinput set-prop "Synaptics TM3289-002" "libinput Tapping Enabled" 1
+bindsym $mod+F2 exec blurlock && xset dpms force off
 #interactive screenshot by pressing printscreen
 bindsym Print exec gnome-screenshot -a 
 #crop-area screenshot by pressing Mod + printscreen
