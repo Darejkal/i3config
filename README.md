@@ -1,2 +1,2 @@
 # i3config
-# i3config # For my usage
+Simple i3config with necessary shortcuts for thinkpad
